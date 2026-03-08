@@ -98,103 +98,103 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addstudent.cs">
+    <Compile Include="Forms\addstudent.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="addstudent.Designer.cs">
+    <Compile Include="Forms\addstudent.Designer.cs">
       <DependentUpon>addstudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="allstudents.cs">
+    <Compile Include="Forms\allstudents.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="allstudents.Designer.cs">
+    <Compile Include="Forms\allstudents.Designer.cs">
       <DependentUpon>allstudents.cs</DependentUpon>
     </Compile>
-    <Compile Include="allusers.cs">
+    <Compile Include="Forms\allusers.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="allusers.Designer.cs">
+    <Compile Include="Forms\allusers.Designer.cs">
       <DependentUpon>allusers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard.cs">
+    <Compile Include="Forms\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard.Designer.cs">
+    <Compile Include="Forms\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="editstudent.cs">
+    <Compile Include="Forms\editstudent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="editstudent.Designer.cs">
+    <Compile Include="Forms\editstudent.Designer.cs">
       <DependentUpon>editstudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="edituserprofile.cs">
+    <Compile Include="Forms\edituserprofile.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="edituserprofile.Designer.cs">
+    <Compile Include="Forms\edituserprofile.Designer.cs">
       <DependentUpon>edituserprofile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs">
+    <Compile Include="Forms\Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Home.Designer.cs">
+    <Compile Include="Forms\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegisterForm.cs">
+    <Compile Include="Forms\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegisterForm.Designer.cs">
+    <Compile Include="Forms\RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Session.cs" />
-    <Compile Include="userprofile.cs">
+    <Compile Include="Helpers\Session.cs" />
+    <Compile Include="Forms\userprofile.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="userprofile.Designer.cs">
+    <Compile Include="Forms\userprofile.Designer.cs">
       <DependentUpon>userprofile.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="addstudent.resx">
+    <EmbeddedResource Include="Forms\addstudent.resx">
       <DependentUpon>addstudent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="allstudents.resx">
+    <EmbeddedResource Include="Forms\allstudents.resx">
       <DependentUpon>allstudents.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="allusers.resx">
+    <EmbeddedResource Include="Forms\allusers.resx">
       <DependentUpon>allusers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard.resx">
+    <EmbeddedResource Include="Forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="editstudent.resx">
+    <EmbeddedResource Include="Forms\editstudent.resx">
       <DependentUpon>editstudent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="edituserprofile.resx">
+    <EmbeddedResource Include="Forms\edituserprofile.resx">
       <DependentUpon>edituserprofile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
+    <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegisterForm.resx">
+    <EmbeddedResource Include="Forms\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -206,7 +206,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="userprofile.resx">
+    <EmbeddedResource Include="Forms\userprofile.resx">
       <DependentUpon>userprofile.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
